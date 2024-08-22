@@ -28,7 +28,7 @@ fun exe7() {
     println("Digite o número do assento que deseja verificar e reservar (0-9):")
     val assento = readLine()?.toIntOrNull() ?: -1
 
-    if (voo.verificarDisponibilidade(assento)) {
+    if (voo.assentoDisponivel(assento)) {
         if (voo.reservarAssento(assento)) {
             println("Assento $assento reservado com sucesso!")
         } else {

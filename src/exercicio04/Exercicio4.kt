@@ -2,7 +2,7 @@ package exercicio04
 
 fun exe4() {
     println("Executando exercício 4")
-    
+
     val nomes = mutableListOf<String>()
 
     for (i in 1..10){
@@ -10,11 +10,11 @@ fun exe4() {
         val nome = readln()
         nomes.add(nome)
     }
-        nomes.sort()
+    nomes.sort()
 
-        println("Nomes em ordem alfabetica: ")
-        for(nome in nomes){
-            println(nome)
-        }
-    
+    println("Nomes em ordem alfabetica: ")
+    for(nome in nomes){
+        println(nome)
+    }
+
 }

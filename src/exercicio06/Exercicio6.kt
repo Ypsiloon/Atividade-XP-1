@@ -2,7 +2,7 @@ package exercicio06
 
 fun exe6() {
     println("Executando exercício 6")
-    
+
     val temperaturas = DoubleArray(30)
 
     for (i in temperaturas.indices){

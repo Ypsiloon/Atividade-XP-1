@@ -16,7 +16,7 @@ class Produto(val nome: String, var quantidade: Int, val nivelMinimo: Int, val n
         println("Verificando estoque do produto: $nome")
         println("Quantidade atual: $quantidade unidades")
         if (quantidade < nivelMinimo) {
-            println("Estoque abaixo do nível mínimo! Nível mínimo: $nivel unidades.")
+            println("Estoque abaixo do nível mínimo!")
             reporEstoque()
         } else {
             println("Estoque está suficiente.\n")

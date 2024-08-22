@@ -2,7 +2,7 @@ package exercicio05
 
 fun exe5() {
     println("Executando exercício 5")
-    
+
     while(true){
 
         println("Digite quantas vezes deseja lançar o dado (digite 0 para sair): ")
